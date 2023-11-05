@@ -96,9 +96,5 @@ DELIMITER ;
 -- deletion commands to delete manually added values for trigger testing
 -- DELETE from movies where id=1234567;
 -- DELETE from movies_genres where movie_id=1234567;
-select * from movies order by id DESC;
-SHOW TRIGGERS;
-CALL creategenredata();
-select * from genre_data;
-show errors;
+
 
